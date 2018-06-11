@@ -145,7 +145,7 @@ class Train(object):
                         cv2.imshow(name, image)
 
                 key = cv2.waitKey(1000)
-                if key == ord("\n") or key == ord("\r"):
+                if key == ord("\n"):
                     break
                 if key == ord("s"):
                     self.save_now = True
